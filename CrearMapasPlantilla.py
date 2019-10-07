@@ -4,7 +4,8 @@
 ##
 ##
 # Objetivo de la rutina:
-## - Crear una mapa utilizando una plantilla existente
+## - Crear una mapa utilizando una plantilla existente, y cargar una capa para mostrar las
+##    entidades de interés.
 #Fecha:
 ##- Octubre 10 de 2019
 #Desarrollado por:
