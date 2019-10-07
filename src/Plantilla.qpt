@@ -1,0 +1,695 @@
+<Composer title="Mapa01" visible="1">
+ <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="{86b1f8be-6f5b-47e5-8ccd-2f12eda6e149}" alignmentSnap="1" printResolution="300" paperWidth="870" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="520" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+  <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="0,0,0,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+   </layer>
+  </symbol>
+  <SnapLine y1="0" x1="0" y2="520" x2="0"/>
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="15.443" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="G:/COUNTRY/GIS/Misc/NorthArrow_10.svg" northOffset="0" pictureHeight="20" mapId="-1" anchorPoint="0">
+   <ComposerItem pagey="64.5117" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="39.936" y="64.5117" visibility="1" zValue="42" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="20" outlineWidth="0.3" excludeFromExports="0" uuid="{8c090baa-8ccb-4499-a60b-c16fc7af8a0b}" height="20" itemRotation="0" frame="false" pagex="39.936">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="&lt;p>[%  format_date( now() , 'dd/MM/yyyy') %]&lt;p>" htmlState="2" halign="4">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="488.5" page="1" id="numero_titulo" lastValidViewScaleFactor="-1" positionMode="4" positionLock="false" x="22.672" y="488.5" visibility="1" zValue="41" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="119.656" outlineWidth="0.3" excludeFromExports="0" uuid="{d0065364-420c-442d-a085-953296475343}" height="8" itemRotation="0" frame="false" pagex="22.672">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="[% @user_requisitor_name + '\n' +&#xa;@user_requisitor_profession + ' - Matrícula Profesional: ' +  @user_requisitor_license %]" htmlState="0" halign="1">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="485.012" page="1" id="numero_titulo" lastValidViewScaleFactor="-1" positionMode="4" positionLock="false" x="295.495" y="485.012" visibility="1" zValue="40" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="109.009" outlineWidth="0.3" excludeFromExports="0" uuid="{7689e3ba-799f-464e-beeb-a11a0fdd881d}" height="15" itemRotation="0" frame="false" pagex="295.495">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="&lt;p>[% @project_tenement %]&lt;p>" htmlState="2" halign="4">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="458.267" page="1" id="numero_titulo" lastValidViewScaleFactor="-1" positionMode="4" positionLock="false" x="26.5702" y="458.267" visibility="1" zValue="39" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="186.86" outlineWidth="0.3" excludeFromExports="0" uuid="{cee125f1-73b4-47d4-8030-e0ad3f79b4d0}" height="8.46667" itemRotation="0" frame="false" pagex="26.5702">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerArrow arrowHeadFillColor="0,0,0,255" arrowHeadOutlineColor="0,0,0,255" startMarkerFile="" boundsBehaviourVersion="24" arrowHeadWidth="0" endMarkerFile="" outlineWidth="1" markerMode="1">
+   <lineStyle>
+    <symbol alpha="1" clip_to_extent="1" type="line" name="">
+     <layer pass="0" class="SimpleLine" locked="0">
+      <prop k="capstyle" v="square"/>
+      <prop k="customdash" v="5;2"/>
+      <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+      <prop k="customdash_unit" v="MM"/>
+      <prop k="draw_inside_polygon" v="0"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="line_color" v="0,0,0,255"/>
+      <prop k="line_style" v="solid"/>
+      <prop k="line_width" v="0.05"/>
+      <prop k="line_width_unit" v="MM"/>
+      <prop k="offset" v="0"/>
+      <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="use_custom_dash" v="0"/>
+      <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+     </layer>
+    </symbol>
+   </lineStyle>
+   <StartPoint x="342.707" y="492"/>
+   <StopPoint x="390.293" y="492"/>
+   <ComposerItem pagey="491.293" page="1" id="Frt_LineaFirma" lastValidViewScaleFactor="-1" positionMode="3" positionLock="false" x="342" y="491.293" visibility="1" zValue="38" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="49.0002" outlineWidth="0.3" excludeFromExports="0" uuid="{acf509c1-7e30-4edd-9d51-5620cbad4e91}" height="1.41421" itemRotation="0" frame="false" pagex="342">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerArrow>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="&lt;p>[% @project_title %]&lt;p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-family: Ubuntu, &quot;Trebuched MS&quot;;&#xa;&#x9;&#x9;font-style: normal;&#xa;&#x9;&#x9;font-size: 20px;&#xa;&#x9;&#x9;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="4">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="443.267" page="1" id="nombre_del_mapa" lastValidViewScaleFactor="-1" positionMode="4" positionLock="false" x="36.218" y="443.267" visibility="1" zValue="37" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="447.564" outlineWidth="0.3" excludeFromExports="0" uuid="{d6e7d6b7-78be-4691-97b3-ea867a34360b}" height="8.467" itemRotation="0" frame="false" pagex="36.218">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerScaleBar lineCapStyle="square" style="Double Box" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="0" alignment="1" numSegments="4" segmentMillimeters="25" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="1250" units="1" labelBarSpace="1" outlineWidth="0.1" numSegmentsLeft="3" maxBarWidth="150" height="2.5" boxContentSpace="1" mapId="0" unitLabel="km">
+   <scaleBarFont description="Trebuchet MS,12,-1,5,50,0,0,0,0,0" style=""/>
+   <fillColor alpha="255" red="0" blue="0" green="0"/>
+   <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+   <strokeColor alpha="255" red="0" blue="0" green="0"/>
+   <textColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem pagey="441.5" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="527.723" y="441.5" visibility="1" zValue="36" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="139.25" outlineWidth="0.3" excludeFromExports="0" uuid="{787bb0e5-62c8-4cd3-9a52-1bae36228cb4}" height="12" itemRotation="0" frame="false" pagex="527.723">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerScaleBar>
+  <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="false" followPresetName="" id="0" previewMode="Render" drawCanvasItems="true">
+   <Extent ymin="1226438.89586332370527089" xmin="1043256.20591312763281167" ymax="1246438.89588372386060655" xmax="1072756.20594321773387492"/>
+   <LayerSet/>
+   <Grid/>
+   <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="0" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{2fff2f2c-f591-4846-a268-0daad09fd0c2}" leftAnnotationDirection="0" topAnnotationPosition="0" rightAnnotationDisplay="3" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="5000" gridFrameSideFlags="15" intervalY="5000" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="if(  @grid_axis = 'x',  concat(  @grid_number ,' mE') , concat(  @grid_number ,' mN')) " frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.05" bottomAnnotationDisplay="3" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="0" blendMode="0" gridFrameStyle="5" rightAnnotationPosition="1" gridFrameWidth="2" name="Cuadrícula 1" annotationFormat="8" bottomFrameDivisions="0" topAnnotationDirection="1" frameAnnotationDistance="2">
+    <lineStyle>
+     <symbol alpha="1" clip_to_extent="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="flat"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="0,0,0,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0.05"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+      <layer pass="0" class="SimpleMarker" locked="0">
+       <prop k="angle" v="0"/>
+       <prop k="color" v="0,0,0,255"/>
+       <prop k="horizontal_anchor_point" v="1"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="name" v="circle"/>
+       <prop k="offset" v="0,0"/>
+       <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="outline_color" v="0,0,0,255"/>
+       <prop k="outline_style" v="solid"/>
+       <prop k="outline_width" v="0"/>
+       <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="outline_width_unit" v="MM"/>
+       <prop k="scale_method" v="diameter"/>
+       <prop k="size" v="2"/>
+       <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="size_unit" v="MM"/>
+       <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <annotationFontProperties description="Abuntu,12,-1,5,50,0,0,0,0,0" style=""/>
+   </ComposerMapGrid>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+   <ComposerItem pagey="30" page="1" id="Mapa" lastValidViewScaleFactor="3.91125" positionMode="0" positionLock="false" x="30" y="30" visibility="1" zValue="35" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="590" outlineWidth="0.05" excludeFromExports="0" uuid="{86b1f8be-6f5b-47e5-8ccd-2f12eda6e149}" height="400" itemRotation="0" frame="false" pagex="30">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>CONVENCIONES ESPECÍFICAS&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="4">
+   <LabelFont description="Trebuchet MS,12,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="20" page="1" id="txt_Con_Especificas" lastValidViewScaleFactor="-1" positionMode="1" positionLock="true" x="700" y="20" visibility="1" zValue="34" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{e32a76d3-c5d2-43a4-bd20-7228b52fd5e7}" height="10" itemRotation="0" frame="false" pagex="700">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>CONVENCIONES GENERALES&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="4">
+   <LabelFont description="Trebuchet MS,12,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="200" page="1" id="txt_Con_Generales" lastValidViewScaleFactor="-1" positionMode="1" positionLock="true" x="700" y="200" visibility="1" zValue="33" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{506c843f-c1d4-4cab-8319-3933b5af868f}" height="10" itemRotation="0" frame="false" pagex="700">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>Escala Gráfica:&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="1">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="439" page="1" id="txt_EscalaGra" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="500" y="439" visibility="1" zValue="32" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{b2f75764-f001-4b2d-8cea-0d97b8ff8245}" height="6.945" itemRotation="0" frame="false" pagex="500">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>Escala:&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="1">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="439" page="1" id="txt_EscalaNum" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="700" y="439" visibility="1" zValue="31" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{2e11a6e3-219f-4b1e-bc05-37b189930f5d}" height="6.945" itemRotation="0" frame="false" pagex="700">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>Departamento:&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="1">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="454" page="1" id="txt_Departamento" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="700" y="454" visibility="1" zValue="30" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{4ecd03a2-48a2-4096-87a3-5b6eb7806699}" height="6.945" itemRotation="0" frame="false" pagex="700">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>Municipio&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="1">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="454" page="1" id="txt_Municipio" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="565" y="454" visibility="1" zValue="29" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{c2298ebc-cbd9-4650-a1ca-3936e7659ffa}" height="6.945" itemRotation="0" frame="false" pagex="565">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>Vereda&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="1">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="454" page="1" id="txt_Vereda" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="430" y="454" visibility="1" zValue="28" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{48c8f8c4-1fbc-40b2-8c0d-22e692c40469}" height="6.945" itemRotation="0" frame="false" pagex="430">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>Nombre de la mina&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="1">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="469" page="1" id="txt_NombreMina" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="430" y="469" visibility="1" zValue="27" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{eb2492ae-d9e5-4b90-bb14-32e4ba3cad26}" height="6.945" itemRotation="0" frame="false" pagex="430">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>Observaciones:&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="1">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="484" page="1" id="txt_Observaciones" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="430" y="484" visibility="1" zValue="26" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{15731525-c180-4a1e-b28a-7d3dbdbe3e97}" height="6.945" itemRotation="0" frame="false" pagex="430">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>Tipo de Título&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="1">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="454" page="1" id="txt_TipoTitulo" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="220" y="454" visibility="1" zValue="25" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{4596c3f6-6e11-494b-b882-a79c1902268a}" height="6.945" itemRotation="0" frame="false" pagex="220">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>Nombre del mapa&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="1">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="439" page="1" id="txt_NombreMapa" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="20" y="439" visibility="1" zValue="24" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{48ae7525-7e4e-4b45-811b-77c8a664b03f}" height="6.945" itemRotation="0" frame="false" pagex="20">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>Elaboró:&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="1">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="484" page="1" id="txt_Elaboro" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="270" y="484" visibility="1" zValue="23" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{4453ccde-4b56-4db5-a9e0-61260de379f8}" height="6.945" itemRotation="0" frame="false" pagex="270">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>Número del Título&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="1">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="454" page="1" id="txt_NumeroTitulo" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="20" y="454" visibility="1" zValue="22" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{d6549528-beac-44a9-8fe8-f301d45d5c06}" height="6.945" itemRotation="0" frame="false" pagex="20">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>Nombre del Titular&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="1">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="469" page="1" id="txt_NombreTitular" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="20" y="469" visibility="1" zValue="21" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{da8519ef-a5a5-475a-861f-e77b8e8e174f}" height="6.945" itemRotation="0" frame="false" pagex="20">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="440" page="1" id="Frt_Escala" lastValidViewScaleFactor="-1" positionMode="6" positionLock="true" x="500" y="440" visibility="1" zValue="20" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="200" outlineWidth="0.3" excludeFromExports="0" uuid="{4877678d-39bb-49ae-b411-4c948ede3dc2}" height="15" itemRotation="0" frame="false" pagex="500">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;p>Fecha (DD/MM/YYYY)&lt;/p>&#xa;&#xa;&lt;style>&#xa;  p {&#xa;&#x9;&#x9;font-weight: bold;&#xa;  }&#xa;&lt;/style>" htmlState="2" halign="1">
+   <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="484" page="1" id="txt_fecha" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="20" y="484" visibility="1" zValue="19" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70" outlineWidth="0.3" excludeFromExports="0" uuid="{246707ab-65cd-4bd1-8b0a-4735a6bb0459}" height="6.945" itemRotation="0" frame="false" pagex="20">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerScaleBar lineCapStyle="square" style="Numeric" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="0" alignment="1" numSegments="4" segmentMillimeters="50" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="2500" units="1" labelBarSpace="3" outlineWidth="0.3" numSegmentsLeft="2" maxBarWidth="150" height="3" boxContentSpace="1" mapId="0" unitLabel="km">
+   <scaleBarFont description="Trebuchet MS,20,-1,5,50,0,0,0,0,0" style=""/>
+   <fillColor alpha="255" red="0" blue="0" green="0"/>
+   <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+   <strokeColor alpha="255" red="0" blue="0" green="0"/>
+   <textColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem pagey="442.5" page="1" id="Esc_Numerica" lastValidViewScaleFactor="-1" positionMode="4" positionLock="true" x="714.788" y="442.5" visibility="1" zValue="18" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="110.425" outlineWidth="0.3" excludeFromExports="0" uuid="{4e15309f-2d51-4f53-bbf9-5e71fafc5753}" height="10" itemRotation="0" frame="false" pagex="714.788">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerScaleBar>
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="20" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="../../../Program Files/QGIS 2.18/apps/qgis-ltr/svg/arrows/NorthArrow_02.svg" northOffset="0" pictureHeight="31.8033" mapId="-1" anchorPoint="0">
+   <ComposerItem pagey="40.96" page="1" id="Sim_Norte" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="39.936" y="40.96" visibility="1" zValue="17" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="20" outlineWidth="0.3" excludeFromExports="0" uuid="{a18e3c2c-086b-4722-be9b-b2dd83ecc214}" height="33.5517" itemRotation="0" frame="false" pagex="39.936">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="20" page="1" id="Marco_Mapa" lastValidViewScaleFactor="-1" positionMode="8" positionLock="true" x="20" y="20" visibility="1" zValue="16" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="610" outlineWidth="0.3" excludeFromExports="0" uuid="{2bfe3499-cb62-45a3-aa6f-cff5640f7edd}" height="420" itemRotation="0" frame="false" pagex="20">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="200" page="1" id="Con_General" lastValidViewScaleFactor="-1" positionMode="1" positionLock="true" x="630" y="200" visibility="1" zValue="15" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{0ba0a249-0cd4-4be0-a214-61dfe9a63c07}" height="240" itemRotation="0" frame="false" pagex="630">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="20" page="1" id="Con_Especifica" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="630" y="20" visibility="1" zValue="14" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{881863ab-cfee-4180-95c5-0dfe3994076d}" height="180" itemRotation="0" frame="false" pagex="630">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="440" page="1" id="Frt_Escala" lastValidViewScaleFactor="-1" positionMode="6" positionLock="true" x="700" y="440" visibility="1" zValue="13" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="140" outlineWidth="0.3" excludeFromExports="0" uuid="{3eb35850-9c11-448e-b03c-8b32283d5ac8}" height="15" itemRotation="0" frame="false" pagex="700">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="440" page="1" id="Frt_NombreMapa" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="20" y="440" visibility="1" zValue="12" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="480" outlineWidth="0.3" excludeFromExports="0" uuid="{99d2fce9-2cc1-4a50-86de-f9896c4ac533}" height="15" itemRotation="0" frame="false" pagex="20">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="455" page="1" id="Frt_TituloMinero" lastValidViewScaleFactor="-1" positionMode="6" positionLock="false" x="220" y="455" visibility="1" zValue="11" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{d7d7d80b-f385-4123-a24e-e101719f1d8a}" height="15" itemRotation="0" frame="false" pagex="220">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="455" page="1" id="Frt_UDepartamento" lastValidViewScaleFactor="-1" positionMode="6" positionLock="false" x="700" y="455" visibility="1" zValue="10" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="140" outlineWidth="0.3" excludeFromExports="0" uuid="{96f693f3-ce1c-4efc-9b19-1e3e6f31bd63}" height="15" itemRotation="0" frame="false" pagex="700">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="455" page="1" id="Frt_UMunicipio" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="565" y="455" visibility="1" zValue="9" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="135" outlineWidth="0.3" excludeFromExports="0" uuid="{4fd4b4ba-e28c-4687-b18c-7bde75236f47}" height="15" itemRotation="0" frame="false" pagex="565">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="455" page="1" id="Frt_UVereda" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="430" y="455" visibility="1" zValue="8" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="135" outlineWidth="0.3" excludeFromExports="0" uuid="{a8527291-a71b-47d6-8747-76d48accfd87}" height="15" itemRotation="0" frame="false" pagex="430">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="455" page="1" id="Frt_TituloMinero" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="20" y="455" visibility="1" zValue="7" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="200" outlineWidth="0.3" excludeFromExports="0" uuid="{75f4e6d3-06f0-4580-8b7c-d227cb3ece33}" height="15" itemRotation="0" frame="false" pagex="20">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="470" page="1" id="Frt_NombreMina" lastValidViewScaleFactor="-1" positionMode="6" positionLock="false" x="430" y="470" visibility="1" zValue="6" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="410" outlineWidth="0.3" excludeFromExports="0" uuid="{bbedbb49-2db4-437f-ad49-73593569e2c2}" height="15" itemRotation="0" frame="false" pagex="430">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="470" page="1" id="Frt_NombreTitular" lastValidViewScaleFactor="-1" positionMode="2" positionLock="false" x="20" y="470" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="410" outlineWidth="0.3" excludeFromExports="0" uuid="{41ede4a3-f31d-4c12-bb48-3b0b9b583ff4}" height="15" itemRotation="0" frame="false" pagex="20">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="485" page="1" id="Frt_Observaciones" lastValidViewScaleFactor="-1" positionMode="6" positionLock="true" x="430" y="485" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="410" outlineWidth="0.3" excludeFromExports="0" uuid="{58696ef1-a772-4e5c-93e5-ee593a5a03e9}" height="15" itemRotation="0" frame="false" pagex="430">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="485.012" page="1" id="Frt_Elaboro" lastValidViewScaleFactor="-1" positionMode="8" positionLock="false" x="270" y="485.012" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="160" outlineWidth="0.3" excludeFromExports="0" uuid="{45149071-f613-42a7-bcf4-9c39d8f636e4}" height="15" itemRotation="0" frame="false" pagex="270">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="485" page="1" id="Frt_NumPlano" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="145" y="485" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="125" outlineWidth="0.3" excludeFromExports="0" uuid="{be540fbc-8d76-40d8-8674-a433218d7bd6}" height="15" itemRotation="0" frame="false" pagex="145">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.05"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="485" page="1" id="Frt_Fecha" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="20" y="485" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="125" outlineWidth="0.3" excludeFromExports="0" uuid="{306d3e54-9f43-45bb-a732-36205f5e3d2c}" height="15" itemRotation="0" frame="false" pagex="20">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <customproperties/>
+ </Composition>
+</Composer>
