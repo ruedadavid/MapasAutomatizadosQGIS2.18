@@ -4,9 +4,9 @@ def crear_mapa_plantilla(nombre_del_mapa, ruta_plantilla, datos_plantilla={}):
     """
     Documentación función crear_mapa_plantilla()
     
-    Objetivo de la rutina:
+    Objetivo de la función:
         - Crear un mapa utilizando las capas cargadas en
-            QGIS y utilizando una plantilla previamente
+            QGIS 2.18.x y utilizando una plantilla previamente
             diseñada
 
     Parámetros:
